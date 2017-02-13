@@ -7,7 +7,8 @@
  */
 /* Document
    ========================================================================== */
-@import url("https://fonts.googleapis.com/css?family=Fira+Sans:400,400i");
+@import url("https://fonts.googleapis.com/css?family=Fira+Sans:300,400,400i");
+@import url("https://fonts.googleapis.com/css?family=Fira+Sans+Extra+Condensed");
 html {
   font-family: sans-serif;
   /* 1 */
@@ -404,7 +405,7 @@ template {
   display: none; }
 
 body {
-  background-color: lightblue;
+  background-color: white;
   font-size: 14px;
   line-height: 1.6;
   font-family: 'Fira Sans', sans-serif;
@@ -525,3 +526,51 @@ hr {
   clear: both;
   margin: 10px 0 30px;
   height: 0; }
+
+.right {
+  border-left: 50px solid black; }
+
+section {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+      flex-direction: row; }
+
+section.header {
+  max-width: 1200px;
+  height: 80px;
+  background: #222222;
+  text-align: center;
+  display: block; }
+  section.header h2.venkat {
+    padding-top: 15px;
+    line-height: 0.8;
+    font-size: 38px; }
+  section.header h4.polu {
+    font-size: 19px; }
+  section.header h2, section.header h4 {
+    margin: 0;
+    color: #dadada;
+    font-weight: 300;
+    font-family: 'Fira Sans Extra Condensed', sans-serif; }
+
+section.intro {
+  height: 280px; }
+  section.intro .intro-left {
+    width: 400px;
+    background: #e3e3e3; }
+  section.intro .intro-right {
+    width: 650px;
+    background: #f3f3f3;
+    border-color: #ececec; }
+
+section.skills {
+  height: 230px;
+  color: black; }
+  section.skills .skills-left {
+    width: 450px;
+    background: #f03e45; }
+  section.skills .skills-right {
+    width: 700px;
+    background: rgba(240, 62, 69, 0.9);
+    border-color: #ee262e; }
