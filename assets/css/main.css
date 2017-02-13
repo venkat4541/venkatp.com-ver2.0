@@ -404,6 +404,10 @@ template {
 [hidden] {
   display: none; }
 
+.container {
+  max-width: 1200px;
+  margin: 0 auto; }
+
 body {
   background-color: white;
   font-size: 14px;
@@ -560,7 +564,7 @@ section.intro {
     width: 400px;
     background: #e3e3e3; }
   section.intro .intro-right {
-    width: 650px;
+    width: 750px;
     background: #f3f3f3;
     border-color: #ececec; }
 
@@ -569,8 +573,19 @@ section.skills {
   color: black; }
   section.skills .skills-left {
     width: 450px;
-    background: #f03e45; }
+    background: rgba(240, 62, 69, 0.95); }
   section.skills .skills-right {
     width: 700px;
-    background: rgba(240, 62, 69, 0.9);
-    border-color: #ee262e; }
+    background: rgba(240, 62, 69, 0.8);
+    border-color: rgba(238, 38, 46, 0.7); }
+
+section.edu-exp {
+  height: 230px;
+  color: black; }
+  section.edu-exp .edu-exp-left {
+    width: 500px;
+    background: #fee471; }
+  section.edu-exp .edu-exp-right {
+    width: 650px;
+    background: rgba(255, 179, 0, 0.8);
+    border-color: #fed54f; }

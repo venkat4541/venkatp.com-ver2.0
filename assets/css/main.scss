@@ -3,6 +3,8 @@
 @import url('https://fonts.googleapis.com/css?family=Fira+Sans:300,400,400i');
 @import url('https://fonts.googleapis.com/css?family=Fira+Sans+Extra+Condensed');
 
+@import "4-layouts/_container";
+
 @import "1-base/_body-element";
 @import "1-base/_example-buttons";
 @import "1-base/_links";
@@ -15,3 +17,4 @@
 @import "3-sections/_header";
 @import "3-sections/_intro";
 @import "3-sections/_skills";
+@import "3-sections/_edu-exp";
