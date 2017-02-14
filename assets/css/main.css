@@ -559,7 +559,7 @@ section.header {
     font-family: 'Fira Sans Extra Condensed', sans-serif; }
 
 section.intro {
-  height: 280px; }
+  height: 320px; }
   section.intro .intro-left {
     width: 400px;
     background: #e3e3e3; }
@@ -573,11 +573,11 @@ section.skills {
   color: black; }
   section.skills .skills-left {
     width: 450px;
-    background: rgba(240, 62, 69, 0.95); }
+    background: #ef3038; }
   section.skills .skills-right {
     width: 700px;
-    background: rgba(240, 62, 69, 0.8);
-    border-color: rgba(238, 38, 46, 0.7); }
+    background: #f54148;
+    border-color: #F43B3C; }
 
 section.edu-exp {
   height: 230px;
@@ -589,3 +589,38 @@ section.edu-exp {
     width: 650px;
     background: rgba(255, 179, 0, 0.8);
     border-color: #fed54f; }
+
+section.proj-certs {
+  height: 230px;
+  color: black; }
+  section.proj-certs .proj-certs-left {
+    width: 550px;
+    background: #446cb3; }
+  section.proj-certs .proj-certs-right {
+    width: 600px;
+    background: rgba(75, 119, 190, 0.8);
+    border-color: #5a7fbf; }
+
+section.contact {
+  height: 380px; }
+  section.contact .contact-left, section.contact .contact-right {
+    width: 250px;
+    background: #7fd2a8; }
+  section.contact .contact-center {
+    width: 700px;
+    background: #59c38c;
+    border-color: #6CCB9A; }
+  section.contact .contact-right.right {
+    border-color: #6CCB9A; }
+
+section.footer {
+  height: 280px;
+  max-width: 1200px;
+  background: #333; }
+  section.footer .footer-part {
+    width: 33.33%; }
+
+section.copyright {
+  height: 30px;
+  max-width: 1200px;
+  background: #222222; }
